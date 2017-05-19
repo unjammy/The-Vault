@@ -12,7 +12,7 @@ module.exports = function() {
     };
 
     function getValue(key){
-      if( key && key.length < 15 ) {
+      if( myVault[key] && key.length < 15 ) {
         return myVault[key];
       } else {
        return null;
